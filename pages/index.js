@@ -20,7 +20,7 @@ export default function Home() {
             <h2 className={inter.className}>Welcome to Avanhala Fnb</h2>
           </div>
         </div>
-        <Link className={styles.viewMenu} href="/menu">View our Menu</Link>
+        <Link className={styles.viewMenu} href="/menu">View Today&apos;s Menu</Link>
       </main>
     </>
   )
