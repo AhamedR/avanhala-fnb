@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.center}>
           <div className={styles.thirteen}>
-            <h2 className={inter.className}>Welcome to Avanhala Fnb</h2>
+            <h2 className={inter.className}>Welcome to Avanhala FnB</h2>
           </div>
         </div>
         <Link className={styles.viewMenu} href="/menu">View Today&apos;s Menu</Link>
