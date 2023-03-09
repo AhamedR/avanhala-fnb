@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Roboto+Serif:opsz,wght@8..144,200&display=swap');
+
+.container {
+  font-family: var(--font-mono);
+  padding: 5rem 0;
+  border-bottom: rgba(var(--tile-start-rgb), .5) .5rem double;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.allItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-auto-flow: row;
+  gap: 1rem;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: var(--third-glow);
+  border-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.10) 0px 13px 27px -5px, rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+}
+
+.name {
+  margin-bottom: .5rem;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+}
+
+.number {
+  align-self: flex-end;
+  background: rgba(var(--tile-start-rgb), 1);
+  width: fit-content;
+  padding: .5rem;
+  margin-bottom: .5rem;
+  border-radius: .5rem;
+  font-family: 'Dosis', sans-serif;
+  font-size: .9rem;
+}
+
+.verities {
+  z-index: 1;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-family: 'Dosis', sans-serif;
+
+  li {
+    background: var(--third-glow);
+    padding: 1rem 1.2rem;
+    border-radius: .5rem;
+
+    &:hover {
+      box-shadow: rgba(50, 50, 93, 0.10) 0px 13px 27px -5px, rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+    }
+  }
+}
