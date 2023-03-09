@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link';
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -20,6 +20,7 @@ export default function Home() {
             <h2 className={inter.className}>Welcome to Avanhala Fnb</h2>
           </div>
         </div>
+        <Link className={styles.viewMenu} href="/menu">View our Menu</Link>
       </main>
     </>
   )

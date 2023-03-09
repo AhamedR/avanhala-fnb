@@ -3,7 +3,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* align-items: center; */
   padding: 6rem;
   min-height: 100vh;
@@ -297,4 +297,13 @@
 
 .quickAccess:hover {
   transform: translateX(0);
+}
+
+.viewMenu {
+  z-index: 1;
+  align-self: center;
+  background: var(--third-glow);
+  padding: 1rem 1.2rem;
+  border-radius: .5rem;
+  font-family: 'Dosis', sans-serif;
 }
