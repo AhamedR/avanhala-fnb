@@ -1,0 +1,392 @@
+[
+  {
+    "title": "Soups",
+    "items": [
+      {
+        "name": "Vegetable",
+        "price": "400",
+        "id": "01"
+      },
+      {
+        "name": "Egg",
+        "price": "400",
+        "id": "02"
+      },
+      {
+        "name": "Chicken",
+        "price": "450",
+        "id": "03"
+      },
+      {
+        "name": "Onion",
+        "price": "400",
+        "id": "04"
+      },
+      {
+        "name": "Beef",
+        "price": "700",
+        "id": "05"
+      }
+    ]
+  },
+  {
+    "title": "Salads",
+    "items": [
+      {
+        "name": "Chicken salad",
+        "price": "500",
+        "id": "06"
+      },
+      {
+        "name": "Beef",
+        "price": "700",
+        "id": "07"
+      },
+      {
+        "name": "Vegetable",
+        "price": "400",
+        "id": "08"
+      },
+      {
+        "name": "Boiled vegetables",
+        "price": "450",
+        "id": "09"
+      }
+    ]
+  },
+  {
+    "title": "Noodles",
+    "items": [
+      {
+        "name": "Vegetable",
+        "price": "400",
+        "id": "10"
+      },
+      {
+        "name": "Egg",
+        "price": "450",
+        "id": "11"
+      },
+      {
+        "name": "Fish",
+        "price": "600",
+        "id": "12"
+      },
+      {
+        "name": "Chicken",
+        "price": "550",
+        "id": "13"
+      },
+      {
+        "name": "Beef",
+        "price": "700",
+        "id": "14"
+      },
+      {
+        "name": "Mix",
+        "price": "900",
+        "id": "15"
+      },
+      {
+        "name": "Macaroni with chicken",
+        "price": "600",
+        "id": "16"
+      },
+      {
+        "name": "Macaroni with beef",
+        "price": "750",
+        "id": "17"
+      },
+      {
+        "name": "Pasta chicken",
+        "price": "600",
+        "id": "18"
+      },
+      {
+        "name": "Pasta beef",
+        "price": "750",
+        "id": "19"
+      }
+    ]
+  },
+  {
+    "title": "Rice (Basmati)",
+    "items": [
+      {
+        "name": "Vegetable",
+        "price": "400",
+        "id": "20"
+      },
+      {
+        "name": "Egg",
+        "price": "450",
+        "id": "21"
+      },
+      {
+        "name": "chicken",
+        "price": "500",
+        "id": "22"
+      },
+      {
+        "name": "fish",
+        "price": "600",
+        "id": "23"
+      },
+      {
+        "name": "beef",
+        "price": "700",
+        "id": "24"
+      }
+    ]
+  },
+  {
+    "title": "Special rice (Basmati)",
+    "items": [
+      {
+        "name": "Rice with mixed vegetable chop suey",
+        "price": "800",
+        "id": "25"
+      },
+      {
+        "name": "Rice mixed chop suey (Large)",
+        "price": "1800",
+        "id": "26"
+      },
+      {
+        "name": "Mix rice (Large)",
+        "price": "1300",
+        "id": "27"
+      },
+      {
+        "name": "Rice with mixed seafood (Large)",
+        "price": "1300",
+        "id": "28"
+      },
+      {
+        "name": "Nasi goreng (Large)",
+        "price": "1300",
+        "id": "29"
+      },
+      {
+        "name": "Tomato rice",
+        "price": "500",
+        "id": "30"
+      },
+      {
+        "name": "Onion rice",
+        "price": "500",
+        "id": "31"
+      }
+    ]
+  },
+  {
+    "title": "Rice and curry (Keeri Samba)",
+    "items": [
+      {
+        "name": "Vegetable rice",
+        "price": "300",
+        "id": "32"
+      },
+      {
+        "name": "Egg rice - Omelette",
+        "price": "400",
+        "id": "33"
+      },
+      {
+        "name": "Fish rice",
+        "price": "400",
+        "id": "34"
+      },
+      {
+        "name": "Chicken rice",
+        "price": "550",
+        "id": "35"
+      },
+      {
+        "name": "Beef rice",
+        "price": "600",
+        "id": "36"
+      }
+    ]
+  },
+  {
+    "title": "Biryani (Basmati)",
+    "items": [
+      {
+        "name": "Egg",
+        "price": "450",
+        "id": "37"
+      },
+      {
+        "name": "Chicken",
+        "price": "550",
+        "id": "38"
+      },
+      {
+        "name": "Beef",
+        "price": "750",
+        "id": "39"
+      }
+    ]
+  },
+  {
+    "title": "Koththu",
+    "items": [
+      {
+        "name": "Vegetable",
+        "price": "400",
+        "id": "40"
+      },
+      {
+        "name": "Egg",
+        "price": "450",
+        "id": "41"
+      },
+      {
+        "name": "Chicken",
+        "price": "550",
+        "id": "42"
+      },
+      {
+        "name": "Seafood",
+        "price": "900",
+        "id": "43"
+      },
+      {
+        "name": "Beef",
+        "price": "700",
+        "id": "44"
+      },
+      {
+        "name": "Mix",
+        "price": "1200",
+        "id": "45"
+      }
+    ]
+  },
+  {
+    "title": "Dolphin Koththu",
+    "items": [
+      {
+        "name": "Vegetable",
+        "price": "600",
+        "id": "46"
+      },
+      {
+        "name": "Egg",
+        "price": "650",
+        "id": "41"
+      },
+      {
+        "name": "Chicken",
+        "price": "750",
+        "id": "42"
+      },
+      {
+        "name": "Seafood",
+        "price": "900",
+        "id": "43"
+      },
+      {
+        "name": "Beef",
+        "price": "700",
+        "id": "44"
+      },
+      {
+        "name": "Mix",
+        "price": "1000",
+        "id": "45"
+      }
+    ]
+  },
+  {
+    "title": "Devel",
+    "items": [
+      {
+        "name": "Chicken",
+        "price": "900",
+        "id": "46"
+      },
+      {
+        "name": "Fish",
+        "price": "1000",
+        "id": "47"
+      },
+      {
+        "name": "Beef",
+        "price": "1200",
+        "id": "48"
+      },
+      {
+        "name": "Sausages",
+        "price": "900",
+        "id": "49"
+      },
+      {
+        "name": "Seafood",
+        "price": "1300",
+        "id": "50"
+      }
+    ]
+  },
+  {
+    "title": "Shakes",
+    "items": [
+      {
+        "name": "Chocolate",
+        "price": "450",
+        "id": "51"
+      },
+      {
+        "name": "Vanilla",
+        "price": "450",
+        "id": "52"
+      },
+      {
+        "name": "Strawberry",
+        "price": "450",
+        "id": "53"
+      }
+    ]
+  },
+  {
+    "title": "Lassie",
+    "items": [
+      {
+        "name": "Mango",
+        "price": "450",
+        "id": "54"
+      },
+      {
+        "name": "Banana",
+        "price": "450",
+        "id": "55"
+      },
+      {
+        "name": "Plain",
+        "price": "400",
+        "id": "56"
+      }
+    ]
+  },
+  {
+    "title": "Fruit juice",
+    "items": [
+      {
+        "name": "Mango",
+        "price": "400",
+        "id": "57"
+      },
+      {
+        "name": "Lemon",
+        "price": "300",
+        "id": "58"
+      },
+      {
+        "name": "Pineapple",
+        "price": "400",
+        "id": "59"
+      }
+    ]
+  }
+]
