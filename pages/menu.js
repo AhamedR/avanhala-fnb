@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Items from '@/components/Items'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +18,12 @@ export default function Menu() {
       <main className={styles.main}>
         <div className={styles.center}>
           <div className={styles.thirteen}>
-            <h2 className={inter.className}>Food menu</h2>
+            <h2 className={inter.className}>Today&apos;s menu</h2>
           </div>
         </div>
-        <p>Menu items will be listed soon...</p>
+        <Items/>
+        <p className={styles.placeOder}>Place your order now: <a href='tel:0772422235'>077 24222 35</a></p>
+        <a className={styles.quickAccess} href='tel:0772422235'>ORDER NOW</a>
       </main>
     </>
   )

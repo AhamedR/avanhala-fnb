@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Roboto+Serif:opsz,wght@8..144,200&display=swap');
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   padding: 6rem;
   min-height: 100vh;
 }
@@ -274,4 +276,25 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.placeOder {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.quickAccess {
+  font-family: 'Dosis', sans-serif;
+  position: fixed;
+  bottom: 2rem;
+  right: 0;
+  padding: 1rem 1.4rem;
+  border-radius: .3rem 0 0 .3rem;
+  background: rgb(70, 144, 72);
+  transform: translateX(80%);
+  transition: all .5s ease;
+}
+
+.quickAccess:hover {
+  transform: translateX(0);
 }
