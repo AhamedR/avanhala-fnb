@@ -2,12 +2,17 @@
 
 .container {
   font-family: var(--font-mono);
-  padding: 5rem 0;
-  border-bottom: rgba(var(--tile-start-rgb), .5) .5rem double;
+  padding: 5rem 0 1.5rem 0 ;
+  border-bottom: rgba(var(--tile-start-rgb), .5) .2rem solid;
 }
 
 .title {
+  // margin-bottom: 2rem;
+}
+
+.description {
   margin-bottom: 2rem;
+  opacity: .8;
 }
 
 .allItems {
@@ -21,6 +26,7 @@
 .item {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 100%;
   padding: 1rem 1.5rem;
   background: var(--third-glow);

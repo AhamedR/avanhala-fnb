@@ -1,31 +1,32 @@
 [
   {
     "title": "Soups",
+    "description": "Served with boiled vegetable",
     "items": [
       {
         "name": "Vegetable",
         "price": "400",
-        "id": "01"
+        "id": "1"
       },
       {
         "name": "Egg",
         "price": "400",
-        "id": "02"
-      },
-      {
-        "name": "Chicken",
-        "price": "450",
-        "id": "03"
+        "id": "2"
       },
       {
         "name": "Onion",
         "price": "400",
-        "id": "04"
+        "id": "3"
+      },
+      {
+        "name": "Chicken",
+        "price": "500",
+        "id": "4"
       },
       {
         "name": "Beef",
         "price": "700",
-        "id": "05"
+        "id": "5"
       }
     ]
   },
@@ -33,38 +34,39 @@
     "title": "Salads",
     "items": [
       {
-        "name": "Chicken salad",
+        "name": "Chicken",
         "price": "500",
-        "id": "06"
+        "id": "6"
       },
       {
         "name": "Beef",
         "price": "700",
-        "id": "07"
+        "id": "7"
       },
       {
-        "name": "Vegetable",
+        "name": "Vegetable (Raw)",
         "price": "400",
-        "id": "08"
+        "id": "8"
       },
       {
         "name": "Boiled vegetables",
         "price": "450",
-        "id": "09"
+        "id": "9"
       }
     ]
   },
   {
     "title": "Noodles",
+    "description": "also available with Cheese",
     "items": [
       {
         "name": "Vegetable",
-        "price": "400",
+        "price": "450",
         "id": "10"
       },
       {
         "name": "Egg",
-        "price": "450",
+        "price": "500",
         "id": "11"
       },
       {
@@ -74,17 +76,18 @@
       },
       {
         "name": "Chicken",
-        "price": "550",
+        "price": "600",
         "id": "13"
       },
       {
         "name": "Beef",
-        "price": "700",
+        "price": "750",
         "id": "14"
       },
       {
-        "name": "Mix",
-        "price": "900",
+        "name": "Noodles Mix",
+        "description": "with prawns, cuttle fish, chicken and sausages",
+        "price": "1000",
         "id": "15"
       },
       {
@@ -98,84 +101,105 @@
         "id": "17"
       },
       {
+        "name": "Macaroni Mix",
+        "description": "with prawns, cuttle fish, chicken and sausages",
+        "price": "1000",
+        "id": "18"
+      },
+      {
         "name": "Pasta chicken",
         "price": "600",
-        "id": "18"
+        "id": "19"
       },
       {
         "name": "Pasta beef",
         "price": "750",
-        "id": "19"
+        "id": "20"
+      },
+      {
+        "name": "Paste Mix",
+        "description": "with prawns, cuttle fish, chicken and sausages",
+        "price": "1000",
+        "id": "21"
       }
     ]
   },
   {
-    "title": "Rice (Basmati)",
+    "title": "Fried Rice (Basmati)",
     "items": [
       {
         "name": "Vegetable",
         "price": "400",
-        "id": "20"
+        "id": "22"
       },
       {
         "name": "Egg",
         "price": "450",
-        "id": "21"
-      },
-      {
-        "name": "chicken",
-        "price": "500",
-        "id": "22"
-      },
-      {
-        "name": "fish",
-        "price": "600",
         "id": "23"
       },
       {
-        "name": "beef",
-        "price": "700",
+        "name": "Chicken",
+        "price": "500",
         "id": "24"
+      },
+      {
+        "name": "Fish",
+        "price": "600",
+        "id": "25"
+      },
+      {
+        "name": "Beef",
+        "price": "750",
+        "id": "26"
+      },
+      {
+        "name": "Mix Fried rice",
+        "description": "with prawns, cuttle fish, chicken and sausages",
+        "price": "1300",
+        "id": "27"
       }
     ]
   },
   {
-    "title": "Special rice (Basmati)",
+    "title": "Avanhala Special rice (Basmati)",
+    "description": "add on beef, on request",
     "items": [
       {
         "name": "Rice with mixed vegetable chop suey",
         "price": "800",
-        "id": "25"
+        "id": "28"
       },
       {
         "name": "Rice mixed chop suey (Large)",
+        "description": "with prawns, cuttle fish, chicken and sausages",
         "price": "1800",
-        "id": "26"
+        "id": "29"
       },
       {
         "name": "Mix rice (Large)",
+        "description": "with prawns, cuttle fish, chicken and sausages",
         "price": "1300",
-        "id": "27"
+        "id": "30"
       },
       {
-        "name": "Rice with mixed seafood (Large)",
+        "name": "Rice with seafood (Large)",
         "price": "1300",
-        "id": "28"
+        "id": "31"
       },
       {
         "name": "Nasi goreng (Large)",
         "price": "1300",
-        "id": "29"
+        "id": "32"
       },
       {
         "name": "Tomato rice",
         "price": "500",
-        "id": "30"
+        "id": "33"
       },
       {
         "name": "Onion rice",
         "price": "500",
-        "id": "31"
+        "id": "34"
       }
     ]
   },
@@ -183,38 +207,19 @@
     "title": "Rice and curry (Keeri Samba)",
     "items": [
       {
-        "name": "Vegetable rice",
+        "name": "Vegetable",
         "price": "300",
-        "id": "32"
-      },
-      {
-        "name": "Egg rice - Omelette",
-        "price": "400",
-        "id": "33"
-      },
-      {
-        "name": "Fish rice",
-        "price": "400",
-        "id": "34"
-      },
-      {
-        "name": "Chicken rice",
-        "price": "550",
         "id": "35"
       },
       {
-        "name": "Beef rice",
-        "price": "600",
-        "id": "36"
-      }
-    ]
-  },
-  {
-    "title": "Biryani (Basmati)",
-    "items": [
-      {
         "name": "Egg",
-        "price": "450",
+        "description": "Omelette or Boiled egg",
+        "price": "400",
+        "id": "36"
+      },
+      {
+        "name": "Fish",
+        "price": "400",
         "id": "37"
       },
       {
@@ -224,19 +229,19 @@
       },
       {
         "name": "Beef",
-        "price": "750",
+        "price": "600",
         "id": "39"
+      },
+      {
+        "name": "Fried Beef",
+        "price": "700",
+        "id": "40"
       }
     ]
   },
   {
-    "title": "Koththu",
+    "title": "Biryani (Basmati)",
     "items": [
-      {
-        "name": "Vegetable",
-        "price": "400",
-        "id": "40"
-      },
       {
         "name": "Egg",
         "price": "450",
@@ -248,54 +253,83 @@
         "id": "42"
       },
       {
+        "name": "Beef",
+        "price": "750",
+        "id": "43"
+      }
+    ]
+  },
+  {
+    "title": "Koththu",
+    "description": "also available with Cheese",
+    "items": [
+      {
+        "name": "Vegetable",
+        "price": "400",
+        "id": "44"
+      },
+      {
+        "name": "Egg",
+        "price": "450",
+        "id": "45"
+      },
+      {
+        "name": "Chicken",
+        "price": "550",
+        "id": "46"
+      },
+      {
         "name": "Seafood",
         "price": "900",
-        "id": "43"
+        "id": "47"
       },
       {
         "name": "Beef",
         "price": "700",
-        "id": "44"
+        "id": "48"
       },
       {
-        "name": "Mix",
-        "price": "1200",
-        "id": "45"
+        "name": "Mix (Large)",
+        "description": "with prawns, cuttle fish, chicken and sausages",
+        "price": "1300",
+        "id": "49"
       }
     ]
   },
   {
     "title": "Dolphin Koththu",
+    "description": "also available with Cheese",
     "items": [
       {
         "name": "Vegetable",
         "price": "600",
-        "id": "46"
+        "id": "50"
       },
       {
         "name": "Egg",
         "price": "650",
-        "id": "41"
+        "id": "51"
       },
       {
         "name": "Chicken",
         "price": "750",
-        "id": "42"
+        "id": "52"
       },
       {
         "name": "Seafood",
         "price": "900",
-        "id": "43"
+        "id": "53"
       },
       {
         "name": "Beef",
         "price": "700",
-        "id": "44"
+        "id": "54"
       },
       {
-        "name": "Mix",
-        "price": "1000",
-        "id": "45"
+        "name": "Mix (Large)",
+        "description": "with prawns, cuttle fish, chicken and sausages",
+        "price": "1400",
+        "id": "55"
       }
     ]
   },
@@ -305,67 +339,74 @@
       {
         "name": "Chicken",
         "price": "900",
-        "id": "46"
+        "id": "56"
       },
       {
         "name": "Fish",
         "price": "1000",
-        "id": "47"
+        "id": "57"
       },
       {
         "name": "Beef",
         "price": "1200",
-        "id": "48"
+        "id": "58"
       },
       {
         "name": "Sausages",
         "price": "900",
-        "id": "49"
+        "id": "59"
       },
       {
         "name": "Seafood",
         "price": "1300",
-        "id": "50"
+        "id": "60"
       }
     ]
   },
   {
     "title": "Shakes",
+    "description": "served with ice cream",
     "items": [
       {
         "name": "Chocolate",
         "price": "450",
-        "id": "51"
+        "id": "61"
       },
       {
         "name": "Vanilla",
         "price": "450",
-        "id": "52"
+        "id": "62"
       },
       {
         "name": "Strawberry",
         "price": "450",
-        "id": "53"
+        "id": "63"
+      },
+      {
+        "name": "Falooda",
+        "price": "500",
+        "id": "64"
       }
     ]
   },
   {
     "title": "Lassie",
+    "description": "also available with ice cream",
     "items": [
       {
         "name": "Mango",
         "price": "450",
-        "id": "54"
+        "id": "65"
       },
       {
         "name": "Banana",
         "price": "450",
-        "id": "55"
+        "id": "66"
       },
       {
         "name": "Plain",
         "price": "400",
-        "id": "56"
+        "id": "67"
       }
     ]
   },
@@ -375,18 +416,24 @@
       {
         "name": "Mango",
         "price": "400",
-        "id": "57"
+        "id": "68"
       },
       {
         "name": "Lemon",
         "price": "300",
-        "id": "58"
+        "id": "69"
       },
       {
         "name": "Pineapple",
         "price": "400",
-        "id": "59"
+        "id": "70"
+      },
+      {
+        "name": "Papaya",
+        "price": "400",
+        "id": "71"
       }
+      
     ]
   }
 ]
